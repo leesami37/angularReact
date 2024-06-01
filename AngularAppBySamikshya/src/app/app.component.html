@@ -1,0 +1,12 @@
+<main class="main" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; height: 50vh; text-align: center;">
+	<nav class="navbar" style="width: 100%;">
+	  <ul style="display: flex; justify-content: center; list-style: none; padding: 0; margin: 1rem 0; gap: 1rem;">
+		<li style="display: inline;"><a href="/" style="text-decoration: none; padding: 0.5rem 1rem;">Home</a></li>
+		<li style="display: inline;"><a href="/calculator" style="text-decoration: none; padding: 0.5rem 1rem;">Calculator</a></li>
+	  </ul>
+	</nav>
+	<router-outlet style="flex-grow: 1; display: flex; align-items: center; justify-content: center;"></router-outlet>
+	<footer class="footer" style="margin-top: 2rem; width: 50%; text-align: center;">
+	  © Samikshya Kunwar, {{ currentYear }}
+	</footer>
+  </main>
